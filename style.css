@@ -1,0 +1,11 @@
+.grid div {
+    border: solid 1px rgb(0, 95, 107);
+    border-radius: 3px;
+    background-color: rgba(9, 95, 107, 0.8);
+    padding: 0.2em;
+    color: #fff;
+}
+.grid div:nth-child(odd) {
+    border: solid 1px rgb(11, 209, 213);
+    background-color: rgba(11, 209, 213, 0.8);
+}
